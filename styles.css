@@ -1,0 +1,64 @@
+body {
+  font-family:'Figtree';  
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    border: 0.1rem solid black;
+    background-color: white;
+    width: 400px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    padding: 1.3rem;
+    margin: 0;
+    box-shadow: 0.8rem 0.8rem 0 black;
+    
+}
+
+.background-img img {
+   width: 100%;
+   border-radius: 1rem; 
+   margin-bottom: 1rem;
+}
+
+button {
+    background: hsl(47, 88%, 63%);
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 16px;
+    padding: 0.4rem 0.8rem;
+}
+
+.footer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.footer img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.background-img p {
+    margin-bottom: 0.1rem;
+    font-weight: 500;
+}
+
+.title-text h2 {
+    margin-bottom: 0.1rem;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+
+}
+
+.text-content p {
+    color: hsl(0, 0%, 42%)
+}
